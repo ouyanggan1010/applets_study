@@ -1,2 +1,9 @@
-<!--pages/user/index.wxml-->
-<text>pages/user/index.wxml</text>
+<view class="user_info_wrap">
+  <view class="user_img_wrap">
+    <image class="user_bg" src="{{userInfo.avatarUrl}}" />
+    <!-- <view class="user_info">
+      <image src="{{userInfo.avatarUrl}}" class="user_icon" />
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view> -->
+  </view>
+</view>

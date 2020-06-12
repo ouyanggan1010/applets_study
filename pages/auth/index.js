@@ -30,7 +30,7 @@ Page({
     if (e.detail.encryptedData) {
       try {
         // 获取用户token需要的用户信息
-        const { encryptedData, iv, rawData, signature } = e.detail;
+        const { encryptedData, iv, rawData, signature,userInfo } = e.detail;
         // 获取小程序登录成功后的code值 执行wx.login
         const { code } = await login();
         const dataObj = { encryptedData, iv, rawData, signature, code };
