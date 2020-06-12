@@ -27,7 +27,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
 	"appid": "wx6eba79bddf47f14e",
-	"projectname": "showdoc",
+	"projectname": "applets_study",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
