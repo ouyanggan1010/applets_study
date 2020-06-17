@@ -2,25 +2,28 @@
     padding-top: 68rpx;
     .tabs_title {
         position: fixed;
-        top: 100rpx;
+        top: 0;
         left: 0;
         width: 100%;
         background: #fff;
         display: flex;
+        &.top{
+            top: 100rpx;
+        }
         .title_item {
             padding: 15rpx 0;
             display: flex;
             justify-content: center;
             align-items: center;
             flex: 1;
-            border-bottom: 2rpx solid #D8D8D8;
-            &.active{
+            border-bottom: 2rpx solid #d8d8d8;
+            &.active {
                 color: var(--themeColor);
                 border-bottom-color: currentColor;
             }
         }
-        &.boxShaw{
-            box-shadow:  0px 1px 3px 0px #D8D8D8;
+        &.boxShaw {
+            box-shadow: 0px 1px 3px 0px #d8d8d8;
         }
     }
 }

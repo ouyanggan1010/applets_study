@@ -245,6 +245,10 @@
   margin: 40rpx;
 }
 
+.m-68 {
+  margin: 68rpx;
+}
+
 .m-80 {
   margin: 80rpx;
 }
@@ -353,6 +357,16 @@
   margin-bottom: 40rpx;
 }
 
+.mx-68 {
+  margin-left: 68rpx;
+  margin-right: 68rpx;
+}
+
+.my-68 {
+  margin-top: 68rpx;
+  margin-bottom: 68rpx;
+}
+
 .mx-80 {
   margin-left: 80rpx;
   margin-right: 80rpx;
@@ -413,6 +427,10 @@
   margin-top: 40rpx;
 }
 
+.mt-68 {
+  margin-top: 68rpx;
+}
+
 .mt-80 {
   margin-top: 80rpx;
 }
@@ -459,6 +477,10 @@
 
 .mb-40 {
   margin-bottom: 40rpx;
+}
+
+.mb-68 {
+  margin-bottom: 68rpx;
 }
 
 .mb-80 {
@@ -509,6 +531,10 @@
   margin-right: 40rpx;
 }
 
+.mr-68 {
+  margin-right: 68rpx;
+}
+
 .mr-80 {
   margin-right: 80rpx;
 }
@@ -557,6 +583,10 @@
   margin-left: 40rpx;
 }
 
+.ml-68 {
+  margin-left: 68rpx;
+}
+
 .ml-80 {
   margin-left: 80rpx;
 }
@@ -603,6 +633,10 @@
 
 .p-40 {
   padding: 40rpx;
+}
+
+.p-68 {
+  padding: 68rpx;
 }
 
 .p-80 {
@@ -713,6 +747,16 @@
   padding-bottom: 40rpx;
 }
 
+.px-68 {
+  padding-left: 68rpx;
+  padding-right: 68rpx;
+}
+
+.py-68 {
+  padding-top: 68rpx;
+  padding-bottom: 68rpx;
+}
+
 .px-80 {
   padding-left: 80rpx;
   padding-right: 80rpx;
@@ -773,6 +817,10 @@
   padding-top: 40rpx;
 }
 
+.pt-68 {
+  padding-top: 68rpx;
+}
+
 .pt-80 {
   padding-top: 80rpx;
 }
@@ -819,6 +867,10 @@
 
 .pb-40 {
   padding-bottom: 40rpx;
+}
+
+.pb-68 {
+  padding-bottom: 68rpx;
 }
 
 .pb-80 {
@@ -869,6 +921,10 @@
   padding-right: 40rpx;
 }
 
+.pr-68 {
+  padding-right: 68rpx;
+}
+
 .pr-80 {
   padding-right: 80rpx;
 }
@@ -915,6 +971,10 @@
 
 .pl-40 {
   padding-left: 40rpx;
+}
+
+.pl-68 {
+  padding-left: 68rpx;
 }
 
 .pl-80 {

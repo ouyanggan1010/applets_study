@@ -1,5 +1,5 @@
 <view class="tabs">
-	<view class="tabs_title {{showShaw ? 'boxShaw':''}}">
+	<view class="tabs_title {{isTop?'top':''}} {{showShaw ? 'boxShaw':''}}">
 		<view
 		 wx:for="{{tabs}}"
 		 wx:key="id"

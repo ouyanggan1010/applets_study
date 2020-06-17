@@ -8,13 +8,13 @@ Component({
       type: Array,
       value: []
     },
-    active: {
-      type: Number,
-      value: 0
-    },
     showShaw: {
       type: Boolean,
       value: false
+    },
+    isTop: {
+      type: Boolean,
+      value: true
     }
   },
 

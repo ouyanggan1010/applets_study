@@ -13,7 +13,7 @@
         "*.wxs": "javascript",
         "*.wpy": "vue",
         "*.scss": "scss",
-        "*.wxml": "html",
+        "*.wxml": "wxml",
         "*.ttss": "css"
     } // 去掉map文件
 }

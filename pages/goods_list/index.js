@@ -109,7 +109,7 @@ Page({
   async getGoodsList() {
     // 加载下一页数据的loading是否需要
     let isLoading = 2;
-    const res = await request({ url: `/goods/search`, data: this.QueryParams });
+    const res = await request({ url: '/goods/search', data: this.QueryParams });
     // 得到总页数
     this.totalPages = Math.ceil(res.total / this.QueryParams.pagesize);
     // 得到拼接数组

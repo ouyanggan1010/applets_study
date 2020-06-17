@@ -4,13 +4,17 @@
 
 .tabs .tabs_title {
   position: fixed;
-  top: 100rpx;
+  top: 0;
   left: 0;
   width: 100%;
   background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.tabs .tabs_title.top {
+  top: 100rpx;
 }
 
 .tabs .tabs_title .title_item {
@@ -27,7 +31,7 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  border-bottom: 2rpx solid #D8D8D8;
+  border-bottom: 2rpx solid #d8d8d8;
 }
 
 .tabs .tabs_title .title_item.active {
@@ -36,6 +40,6 @@
 }
 
 .tabs .tabs_title.boxShaw {
-  -webkit-box-shadow: 0px 1px 3px 0px #D8D8D8;
-          box-shadow: 0px 1px 3px 0px #D8D8D8;
+  -webkit-box-shadow: 0px 1px 3px 0px #d8d8d8;
+          box-shadow: 0px 1px 3px 0px #d8d8d8;
 }

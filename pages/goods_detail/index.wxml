@@ -10,8 +10,9 @@
 <!-- 名称、收藏 -->
 <view class="goods_name_row">
     <view class="goods_name">{{goodsObj.goods_name}}</view>
-    <view class="goods_collect">
-        <view class="iconfont iconshoucang1 fs-xl-20"></view>
+    <view class="goods_collect" bindtap="handleCollect">
+        <!-- text-primary iconshoucang;iconshoucang1 -->
+        <view class="iconfont fs-xl-20 {{collectIcon?'text-primary iconshoucang':'iconshoucang1'}}"></view>
         <view class="text-gray-66">收藏</view>
     </view>
 </view>

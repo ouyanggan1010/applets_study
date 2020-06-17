@@ -1,6 +1,6 @@
 <view class="pt-100">
 	<SearchInput/>
-	<Tabs tabs="{{tabs}}" active="{{tabsActive}}" showShaw="{{shawBool}}" bindtabChange="handleTabChange">
+	<Tabs tabs="{{tabs}}" showShaw="{{shawBool}}" bindtabChange="handleTabChange">
 		<view class="first_tab">
 			<navigator
 			 class="goods_item"

@@ -1,5 +1,4 @@
 @import "./styles/iconfont.wxss";
-@import "./styles/variable.wxss";
 /* 重置样式 */
 page,
 view,
@@ -25,3 +24,4 @@ image {
   width: 100%;
   color: red;
 }
+@import "./styles/variable.wxss";
