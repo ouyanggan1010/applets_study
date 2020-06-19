@@ -38,7 +38,15 @@ Page({
   },
   // 异步获取楼层数据
   async getFloorList() {
-    const res = await request({ url: '/home/floordata' })
+    const res = await request({ url: '/home/floordata' });
+    res.forEach(v => { 
+      const change = v.product_list.map(v1 => {
+        const arr = v1.navigator_url.split("?");
+        v1.url = `${arr[0]}/index?${arr[1]}`;
+        return v1;
+      });
+      v.product_list = change;
+    })
     this.setData({
       floorList: res
     })

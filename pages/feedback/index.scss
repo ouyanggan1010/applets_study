@@ -1,0 +1,82 @@
+page {
+    background-color: #eeeeee;
+}
+.fb_main {
+    padding: 20rpx;
+    .fb_title {
+        font-size: 32rpx;
+    }
+    .fb_tips {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10rpx;
+        width: 100%;
+        view {
+            width: 30%;
+            padding: 10rpx 0;
+            background-color: #fff;
+            margin: 10rpx calc(10% / 6);
+            text-align: center;
+            &.active {
+                background-color: #eb4450;
+                color: #fff;
+            }
+        }
+    }
+    .fb_content {
+        background-color: #fff;
+        margin-top: 20rpx;
+        width: 100%;
+        textarea {
+            width: 100%;
+            padding: 20rpx;
+            box-sizing: border-box;
+            height: 400rpx;
+        }
+        .fb_tool {
+            width: 100%;
+            margin-top: 30rpx;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 10rpx;
+            button {
+                margin: 0;
+                width: 90rpx;
+                height: 90rpx;
+                font-size: 60rpx;
+                padding: 0;
+                line-height: 0;
+                color: #ccc;
+                border: 2rpx solid #ccc;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: calc((100% - 540rpx) / 7);
+                margin-bottom: 20rpx;
+                border-radius: 0;
+            }
+            .img_wrap{
+                margin-left: calc((100% - 540rpx) / 7);
+            }
+        }
+    }
+    .form_btn_wrap {
+        margin-top: 30rpx;
+        display: flex;
+        justify-content: flex-end;
+        button {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: #e64340;
+            padding: 10rpx 20rpx;
+            width: auto;
+            font-size: 32rpx;
+            font-weight: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

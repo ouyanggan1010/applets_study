@@ -69,10 +69,10 @@ export const showToast = paramse => {
 export const login = () => {
     return new Promise((resolve, reject) => {
         wx.login({
-            success: (res)=>{
+            success: (res) => {
                 resolve(res)
             },
-            fail: (err)=> {
+            fail: (err) => {
                 reject(err)
             }
         })
@@ -83,10 +83,40 @@ export const requestPayment = parames => {
     return new Promise((resolve, reject) => {
         wx.requestPayment({
             ...parames,
-            success: (res)=>{
+            success: (res) => {
                 resolve(res)
             },
-            fail: (err)=> {
+            fail: (err) => {
+                reject(err)
+            }
+        })
+    })
+}
+
+/* chooseImage 选择图片 */
+export const chooseImage = parames => {
+    return new Promise((resolve, reject) => {
+        wx.chooseImage({
+            ...parames,
+            success: (res) => {
+                resolve(res)
+            },
+            fail: (err) => {
+                reject(err)
+            }
+        })
+    })
+}
+
+/* uploadFile 上传文件，返回外网链接 */
+export const uploadFile = parames => {
+    return new Promise((resolve, reject) => {
+        wx.uploadFile({
+            ...parames,
+            success: (res) => {
+                resolve(res)
+            },
+            fail: (err) => {
                 reject(err)
             }
         })

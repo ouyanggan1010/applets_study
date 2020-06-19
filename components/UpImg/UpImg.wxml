@@ -1,0 +1,4 @@
+<view class="img_item">
+  <image src="{{imgPic}}" />
+  <view class="iconfont iconshanchu" bindtap="handleClear"></view>
+</view>
